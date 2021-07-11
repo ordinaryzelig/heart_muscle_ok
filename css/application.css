@@ -4,7 +4,7 @@ body {
 
 nav.navbar {
   background-color: rgba(0, 0, 0, 0.9); }
-  nav.navbar a {
+  nav.navbar a, nav.navbar a:hover {
     color: white; }
 
 .section {
