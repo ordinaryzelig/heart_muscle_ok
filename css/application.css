@@ -1,0 +1,8 @@
+body {
+  background-color: black; }
+
+#title {
+  background-image: url("../public/logo.jpeg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 1000px; }
