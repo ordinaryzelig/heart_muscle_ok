@@ -3,21 +3,33 @@ body {
 
 .section {
   background-size: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: 0 0; }
 
 .section-body {
   background-color: rgba(0, 0, 0, 0.3);
   color: white;
-  font-size: 10pt; }
+  font-size: 10pt;
+  padding: 5px; }
 
 #title {
   background-image: url("../public/logo.jpeg");
   height: 400px; }
 
 #about-me {
-  background-image: url("../public/headshot.jpg");
-  height: 450px; }
+  background-image: url("../public/headshot.jpg"); }
   #about-me .section-body {
     width: 40%;
-    padding: 5px;
-    margin: 10px; }
+    margin: 10px;
+    margin-bottom: 0; }
+
+#services {
+  background-image: url("../public/services.jpeg");
+  height: 650px; }
+  #services .section-body {
+    width: 50%;
+    margin: 10px;
+    margin-top: 0;
+    position: relative;
+    left: 50%;
+    top: 60%; }

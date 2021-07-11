@@ -4,11 +4,13 @@ body
 .section
   background-size: 100%
   background-repeat: no-repeat
+  background-position: 0 0
 
 .section-body
   background-color: rgba(0, 0, 0, 0.3)
   color: white
   font-size: 10pt
+  padding: 5px
 
 #title
   background-image: url('../public/logo.jpeg')
@@ -16,8 +18,18 @@ body
 
 #about-me
   background-image: url('../public/headshot.jpg')
-  height: 450px
   .section-body
     width: 40%
-    padding: 5px
     margin: 10px
+    margin-bottom: 0
+
+#services
+  background-image: url('../public/services.jpeg')
+  height: 650px
+  .section-body
+    width: 50%
+    margin: 10px
+    margin-top: 0
+    position: relative
+    left: 50%
+    top: 60%
