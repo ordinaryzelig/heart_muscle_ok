@@ -1,5 +1,6 @@
 body
   background-color: black
+  color: white
 
 .section
   background-size: 100%
@@ -7,18 +8,21 @@ body
   background-position: 0 0
 
 .section-body
-  background-color: rgba(0, 0, 0, 0.3)
-  color: white
   font-size: 10pt
   padding: 5px
+  margin: 10px
+  position: relative
 
-#title
+.glass-pane
+  background-color: rgba(0, 0, 0, 0.3)
+
+#title, #contact
   background-image: url('../public/logo.jpeg')
   height: 400px
 
 #about-me
   background-image: url('../public/headshot.jpg')
-  .section-body
+  .glass-pane
     width: 40%
     margin: 10px
     margin-bottom: 0
@@ -26,25 +30,35 @@ body
 #services
   background-image: url('../public/services.jpeg')
   height: 650px
-  .section-body
+  .glass-pane
     width: 50%
     margin-top: 0
-    position: relative
     left: 50%
     top: 60%
 
 #certifications
   background-image: url('../public/certifications.jpg')
   height: 450px
-  .section-body
-    position: relative
+  .glass-pane
     top: 50%
 
 #location
   background-image: url('../public/location.jpeg')
   height: 400px
-  .section-body
+  .glass-pane
     width: 40%
     position: relative
     top: 55%
     left: 40%
+
+#contact
+  .section-body
+    top: 65%
+    left: 5%
+
+.social
+  display: inline-block
+  margin: 5px
+  img
+    width: 29px
+    height: 29px

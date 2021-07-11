@@ -14,7 +14,7 @@
       #title.section
 
       #about-me.section
-        .section-body
+        .section-body.glass-pane
           %h3 About Me
           %p
             My fitness journey started after years of being bullied for being overweight as a teenager.
@@ -25,7 +25,7 @@
             I graduated with BS in Kinesiology from East Central University.
 
       #services.section
-        .section-body
+        .section-body.glass-pane
           %h3 Services
           %ul
             %li One-on-one
@@ -34,7 +34,7 @@
             %li Meal planning
 
       #certifications.section
-        .section-body
+        .section-body.glass-pane
           %h3.text-center Certifications
           .row
             .col-6
@@ -48,8 +48,20 @@
                 %li FTS (Functional training Specialist)
 
       #location.section
-        .section-body
+        .section-body.glass-pane
           %h3 Location
           %p
             2820 NW 122nd St
             Oklahoma City 73120
+
+      #contact.section
+        .section-body
+          %h3 Contact
+          %a{:href => 'mailto:reinaldi@heartmuscleok.com'} reinaldi@heartmuscleok.com
+          #social-links
+            .social
+              %a#facebook{:href => 'facebook.com', :target => :blank}
+                %img{:src => 'public/facebook.png'}
+            .social
+              %a#instagram.social{:href => 'https://www.instagram.com/reinaldilifts/', :target => :blank}
+                %img{:src => 'public/instagram.webp'}
