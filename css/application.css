@@ -22,7 +22,7 @@ nav.navbar {
   background-color: rgba(0, 0, 0, 0.3); }
 
 #title, #contact {
-  background-image: url("../public/logo.jpeg");
+  background-image: url("../public/title.jpeg");
   height: 400px; }
 
 #about-me {
