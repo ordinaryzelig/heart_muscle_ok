@@ -23,3 +23,5 @@
 guard :haml do
   watch(/^.+(\.haml)$/)
 end
+
+guard 'sass', :input => 'sass', :output => 'css'
