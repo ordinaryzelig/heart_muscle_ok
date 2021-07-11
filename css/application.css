@@ -1,8 +1,23 @@
 body {
   background-color: black; }
 
+.section {
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.section-body {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  font-size: 10pt; }
+
 #title {
   background-image: url("../public/logo.jpeg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  height: 1000px; }
+  height: 400px; }
+
+#about-me {
+  background-image: url("../public/headshot.jpg");
+  height: 450px; }
+  #about-me .section-body {
+    width: 40%;
+    padding: 5px;
+    margin: 10px; }
